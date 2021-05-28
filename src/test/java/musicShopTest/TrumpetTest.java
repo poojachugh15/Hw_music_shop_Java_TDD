@@ -1,3 +1,5 @@
+package musicShopTest;
+
 import musicShop.Trumpet;
 import org.junit.Before;
 import org.junit.Test;
@@ -46,7 +48,7 @@ public class TrumpetTest {
 
     @Test
     public void canCalculateMarkUp() {
-        assertEquals(30,trumpet.calculateMarkup());
+        assertEquals(30, trumpet.calculateMarkup());
     }
 
 }

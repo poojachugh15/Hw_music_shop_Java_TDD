@@ -1,3 +1,5 @@
+package musicShopTest;
+
 import musicShop.Guitar;
 import org.junit.Before;
 import org.junit.Test;
