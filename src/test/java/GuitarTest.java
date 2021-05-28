@@ -44,4 +44,9 @@ public class GuitarTest {
         assertEquals("Sa Re Ga Ma", guitar.play());
     }
 
+    @Test
+    public void canCalculateMarkUp() {
+        assertEquals(150, guitar.calculateMarkup());
+    }
+
 }

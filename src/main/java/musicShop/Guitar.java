@@ -37,4 +37,9 @@ public class Guitar extends Instrument implements IPlay, ISell {
     public int getSellPrice() {
         return sellPrice;
     }
+
+
+    public int calculateMarkup() {
+        return this.sellPrice- this.boughtPrice;
+    }
 }
